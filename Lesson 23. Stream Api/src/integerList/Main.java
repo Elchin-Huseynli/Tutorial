@@ -25,11 +25,21 @@ public class Main {
                         .map(num -> num*num)
                         .collect(Collectors.toList());
 
+
         List<Integer> factList = numbers.stream()          // deyerlerin faktoriali
                         .map(num -> IntStream.rangeClosed(1, num).reduce(1,(x, y) -> x*y))
                         .collect(Collectors.toList());
 
-        
+
+        int number = 130;                                          // sade ededler
+        List<Integer> simpleNumbers = IntStream.range(1,number)
+                        .filter(num -> num%2!=0)
+                        .filter(num -> IntStream.range(2, (int) Math.sqrt(num))
+                                .filter(n -> n%2!=0)
+                                .noneMatch(n -> num%n==0))
+                        .boxed()
+                        .collect(Collectors.toList());
+
 
 
         System.out.println("Min value: " + minValue);
@@ -37,6 +47,7 @@ public class Main {
         System.out.println("Sum value: " + sumValue);
         System.out.println("Power list: " + powList);
         System.out.println("Factorial list: " + factList);
+        System.out.println("Simple numbers list: " + simpleNumbers);
 
     }
 }

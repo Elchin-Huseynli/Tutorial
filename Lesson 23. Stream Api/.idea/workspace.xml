@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77229093-b202-4fe6-a52e-5b0d27316004" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 23. Stream Api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer/CustomConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integerList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/predicate/CustomPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/predicate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringList/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/supplier/CustomSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/supplier/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="77229093-b202-4fe6-a52e-5b0d27316004" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/predicate/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -152,6 +133,7 @@
       <workItem from="1676828675355" duration="4984000" />
       <workItem from="1676833729807" duration="159000" />
       <workItem from="1676833907701" duration="11554000" />
+      <workItem from="1677102993137" duration="19000" />
     </task>
     <servers />
   </component>
