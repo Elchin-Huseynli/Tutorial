@@ -1,0 +1,41 @@
+.demo {
+    color: antiquewhite;
+    background-color: rgba(95,215,31,0.94);
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    padding-block-start: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ff006a;
+    color: white;
+}
+
+.table, th, td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    padding-right: 35px;
+    padding-left: 20px;
+    border-spacing: 0px;
+    text-align: center;
+}
