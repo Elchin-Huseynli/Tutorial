@@ -1,0 +1,3 @@
+Lamp lamp = new Lamp(false);
+        lamp.newStatus(true);
+        lamp.Status();

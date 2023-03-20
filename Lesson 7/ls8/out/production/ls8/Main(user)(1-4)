@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("[1] Do Register\n [2] System Exit");
+        System.out.print(" Enter Option: ");
+        int option1 = scanner.nextInt();
+
+        if (option1 == 2) {
+            System.exit(-1);
+        }
+        else {
+            System.out.print("\nEnter user number: ");
+            int count = scanner.nextInt();
+
+            if (count<=0) {
+                System.out.println("False");
+            }
+            else {
+                User[] users = new User[count];
+                for (int i = 0; i < count; i++) {
+                    Scanner scanner1 = new Scanner(System.in);
+                    System.out.println((i + 1) + ". user");
+                    System.out.print("Enter Fullname: ");
+                    String fullName = scanner1.nextLine();
+                    System.out.print("Enter Mail: ");
+                    String mail = scanner1.nextLine();
+                    System.out.print("Enter age: ");
+                    int age = scanner1.nextInt();
+
+                    User user = new User(fullName, mail, age);
+                    users[i] = user;
+                    System.out.println();
+                }
+
+                while (true) {
+                    System.out.println("\n[1]  User Search;\n  [2] Exit System");
+                    System.out.print("\nOption: ");
+                    int option = scanner.nextInt();
+                    if (option == 2) {
+                        System.exit(-1);
+                    } else {
+                        for (int i = 0; i < count; i++) {
+                            System.out.println("--------------");
+                            System.out.println(users[i].getInfo());   // Eger tek adlari cap etmek istesek (users[i].fullName)
+                            System.out.println("--------------");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

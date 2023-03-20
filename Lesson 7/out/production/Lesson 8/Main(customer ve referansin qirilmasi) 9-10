@@ -1,0 +1,11 @@
+Customer Elchin = new Customer("Elchin Huseynli",500);
+        Customer Nihat = new Customer("Nihat Quliyev",500);
+
+        Elchin.giver(200);
+        Nihat.sender(200);
+        System.out.println(Elchin.getInfo());
+        System.out.println(Nihat.getInfo());
+
+        //Referansin qirilmasi
+        Elchin.money = 1000;
+        System.out.println(Elchin.getInfo());

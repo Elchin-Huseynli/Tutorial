@@ -1,0 +1,5 @@
+Employe employe = new Employe("Elchin","Developer",18,2000);
+        System.out.println(employe.getInfo());
+        System.out.println("---------------------");
+        employe.newPosition("Backend Developer");
+        System.out.println(employe.getInfo());

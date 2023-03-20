@@ -1,0 +1,2 @@
+Static_instant static_instant = new Static_instant("Elchin");
+        System.out.println(static_instant.name);
